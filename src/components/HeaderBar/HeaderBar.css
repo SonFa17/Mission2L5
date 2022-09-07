@@ -1,0 +1,135 @@
+.header-bar-container {
+    position: sticky;
+    z-index: 100;
+  }
+  
+  .top-nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .top-nav-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin: 1rem;
+  }
+  
+  .top-nav-text:hover {
+    font-weight: 600;
+  }
+  
+  .logo-bar-logo {
+    width: 9vw;
+    margin-right: 8vw;
+  }
+  
+  .logo-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .logo-bar-sub-container {
+    display: flex;
+  }
+  
+  .logo-bar-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 1.5rem;
+  }
+  
+  .logo-bar-button:hover {
+    font-weight: 600;
+  }
+  
+  .logo-bar-icon {
+    height: 2vh;
+    margin-right: 0.4rem;
+  }
+  
+  .logo-bar-language-link {
+    color: #b71234;
+  }
+  
+  .blue-nav-bar-container {
+    background-color: #0076be;
+    width: 100%;
+    height: 70px;
+    top: 15vh;
+  }
+  
+  .blue-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  .blue-nav-text {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .blue-nav-text:hover {
+    font-weight: 600;
+  }
+  
+  .blue-nav-drop-down {
+    margin-top: 1.5rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .blue-nav-drop-down:hover {
+    font-weight: 600;
+  }
+  
+  .blue-nav-drop-down-text {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .blue-nav-drop-down-container {
+    margin-top: 1.8rem;
+  }
+  
+  .blue-nav-drop-down-quote-container {
+    text-decoration: none;
+  }
+  
+  .blue-nav-drop-down-quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #1f398a;
+    font-weight: 600;
+    font-size: 20px;
+    height: 3rem;
+    border-radius: 2rem;
+  }
+  
+  .dropdown-icon {
+    height: 1.2vh;
+    margin-left: 0.6rem;
+  }
+  

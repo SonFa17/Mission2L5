@@ -1,0 +1,141 @@
+.footer-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-main {
+  display: flex;
+  height: 365px;
+  width: 100%;
+  background: #9a9b9c;
+  bottom: 0;
+}
+
+/* Cars section styling */
+.footer-cars-sec1 {
+  flex-direction: column;
+  text-align: left;
+  margin-left: 60px;
+}
+.footer-cars {
+  margin-bottom: 1px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+}
+.footer-cars-btns {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  display: flex;
+}
+/* Finance sec styling */
+.footers-fin-sec2 {
+  flex-direction: column;
+  text-align: left;
+  margin-left: 95px;
+  margin-right: 25px;
+}
+.footer-fin {
+  margin-bottom: 1px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+}
+.footer-fin-btns {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  display: flex;
+}
+/* Insurance sec styling */
+.footer-Insu-sec3 {
+  flex-direction: column;
+  text-align: left;
+  margin-left: 95px;
+  margin-right: 25px;
+}
+.footer-Insu {
+  margin-bottom: 1px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+}
+.footer-Insu-btns {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  display: flex;
+}
+/* Search sec of styling */
+.footer-search-sec4 {
+  flex-direction: column;
+  text-align: left;
+  margin-left: 95px;
+  margin-right: 20px;
+}
+.footer-search {
+  margin-bottom: 1px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+}
+.footer-Srch-btn {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  display: flex;
+}
+/* About Us sec of Styling */
+.footer-AbtUs-sec5 {
+  flex-direction: column;
+  text-align: left;
+  margin-left: 150px;
+}
+.footer-AbtUs {
+  margin-bottom: 1px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+}
+.footer-AbtUs-btn {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  display: flex;
+}

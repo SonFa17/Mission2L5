@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "question": "Who is the underwriter?",
+      "answer": "Our Car Insurance is underwritten by Vero Insurance New Zealand Limited. Find out about their Financial Strength Rating."
+    },
+    {
+      "id": 2,
+      "question": "If I need to cancel my policy, can I get a refund?",
+      "answer":"You may at any time cancel your policy by giving us notice in writing. If you request cancellation, your policy is not refundable unless cancelled within 15 days of the start of the period of insurance."
+    },
+    {
+      "id": 3,
+      "question": "I've moved house. How do I update my policy address with you?",
+      "answer":"You can call us on 0800 227 787 and we'll be happy to change the contact address we have for you."
+    },
+    {
+      "id": 4,
+      "question": "What if my windscreen or window is damaged?",
+      "answer":"If this is the only damage to your car phone 0800 227 787 to lodge your claim and find a reputable glass company to repair the damage. Depending on the policy you have with us you may have to pay an excess if the windscreen needs replacing."
+    }
+]

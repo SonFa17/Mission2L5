@@ -1,0 +1,32 @@
+.whats-next-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 445px;
+    background-color: #0076BE;
+}
+
+.whats-next-header-text {
+    
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.whats-next-icon-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.whats-next-icon {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
