@@ -1,0 +1,202 @@
+.offerDetails {
+    border: 2px black solid;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; */
+}
+
+.comprehensiveDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comprehensiveDetails__top {
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.comprehensiveDetailsText {
+    display: block;
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.details h1,
+p {
+    text-align: center;
+}
+
+.diveDeeperSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diveDeeperButtons {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.diveDeeperButtons button {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 220px;
+    height: 40px;
+    background: white;
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .6s;
+}
+
+.diveDeeperButtons button:hover {
+    background: blue;
+    color: white;
+    border: 0.5px solid transparent;
+    transform: scale(1.15);
+}
+
+.diveDeeperButtons button img {
+    height: 80%;
+    margin-right: 10px;
+}
+
+.diveDeeperDetails {
+    border: 0.5px solid lightgray;
+    display: flex;
+    max-width: 70%;
+    margin-bottom: 10px;
+}
+
+.diveDeeperDetailsText {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 40%;
+}
+
+.diveDeeperDetailsText p {
+    text-align: justify;
+
+}
+
+.diveDeeperDetailsTextButtons {
+    display: flex;
+    justify-content: left;
+}
+
+.diveDeeperDetailsTextButtons button {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 40px;
+    background: white;
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .6s;
+}
+
+.diveDeeperDetailsTextButtons button:hover {
+    background: blue;
+    color: white;
+    border: 0.5px solid transparent;
+    transform: scale(1.15);
+}
+
+.top,
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 70%;
+    align-items: flex-start;
+    padding: 15px;
+
+}
+
+.diveDeeperDetailsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topListItems,
+.bottomListItems {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.topListItems img {
+    display: inline-block;
+    width: 10%;
+    margin: 5px;
+}
+.bottomListItems img {
+    display: inline-block;
+    width: 10%;
+    margin: 5px;
+}
+
+.topListItems h2 {
+    display: inline;
+}
+.bottomListItems h2 {
+    display: inline;
+}
+
+.topListItemsTitle,
+.bottomListItemsTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.questionList ul {
+    list-style: none;
+}
+.questionList ul li {
+    cursor: pointer;
+}

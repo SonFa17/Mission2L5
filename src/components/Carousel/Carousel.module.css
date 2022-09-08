@@ -1,0 +1,13 @@
+.carousel{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0%;
+    /* height: 256px; */
+    /* border: 2px black solid; */
+}
+
+.carousel img {
+    width: 100%;
+    /* border: 2px red solid; */
+    /* height: 100%; */
+}
