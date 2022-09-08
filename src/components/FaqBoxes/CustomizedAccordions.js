@@ -30,13 +30,13 @@ export default function CustomizedAccordions(props) {
                     id={(content.id)}
                 > 
                     <Typography 
-                    sx={{ width: '100%', flexShrink: 0, fontSize: 14, fontWeight: 600}}>
+                    sx={{ width: '100%', flexShrink: 0, fontSize: 14, fontWeight: 600, textAlign: 'left'  }}>
                     {content.question}
                     </Typography>
 
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography sx={{ fontSize: 14, color: isColor ? '#0076BE' : '#black'  }} >{content.answer}</Typography>
+                    <Typography sx={{ fontSize: 14, color: isColor ? '#0076BE' : '#black', textAlign: 'left'  }} >{content.answer}</Typography>
                 </AccordionDetails>
             </Accordion>
              
