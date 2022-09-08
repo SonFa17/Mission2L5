@@ -1,0 +1,26 @@
+[
+    {
+      "id": 5,
+      "id2": 15,
+      "question": "How can I make a premium payment by credit card?",
+      "answer": "You can pay online directly to Vero with your credit or debit card. Please use your Customer PRN and policy number as the reference."
+    },
+    {
+      "id": 6,
+      "id2": 16,
+      "question": "How do I make a car insurance claim?",
+      "answer":"Below are some FAQs that will help you learn more about Car Insurance. If you have a question that isn't covered below, please contact us on 0800 887 637 or email is contact@turners.co.nz."
+    },
+    {
+      "id": 7,
+      "id2": 17,
+      "question": "Someone drove into my car, what do I do?",
+      "answer":"It's important to get as much information from them as possible e.g. drivers full name, drivers licence no, address, phone number, car registration, insurance company (if any). If you're not at fault for the accident and we have other person's details, we may waive your excess."
+    },
+    {
+      "id": 8,
+      "id2": 18,
+      "question": "What if I caused the accident and the other person wants to make a claim against me?",
+      "answer":"Do not admit fault for the damage/accident and do not promise to pay for any costs. Tell them we’re your insurance company and they can call us on 0800 227 787."
+    }
+]

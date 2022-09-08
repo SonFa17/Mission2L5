@@ -13,7 +13,7 @@ const WhatsNext = () => {
 
        <div className="whats-next-icon-container">
 
-       <Link className="whats-next-icon" to="/cars/quote">
+       <Link className="whats-next-icon" to="/cars/insurance-quotes">
         <img src={carIcon} alt="car icon"></img>
         <p>Get a quote</p>
        </Link>
