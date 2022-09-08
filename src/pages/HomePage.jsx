@@ -2,7 +2,7 @@ import React from 'react'
 import FooterMain from '../components/FooterMain'
 import HeaderBar from '../components/HeaderBar/HeaderBar'
 import HomePageImage from './img/HomePageImage.jpg'
-
+import "./HomePage.css"
 
 function HomePage() {
   return (
