@@ -3,15 +3,21 @@ import classes from "./OfferDetails.module.css";
 import { useState } from "react";
 
 function OfferDetails() {
-  const [hideShow, setHideShow] = useState([false, false, false, false, false]);
+  const [hideShow, setHideShow] = useState([false, true, false, false, false]);
   const toggleDiv = (e) => {
     e.preventDefault();
-    const newHideShow = hideShow.map((x) => hideShow.indexOf(x) === e.target.id ? !x : x);
-    console.log(`New hideShow = ${newHideShow}`)
+    console.log(`fresh hideShow: ${hideShow}`);
+    let item = hideShow[parseInt(e.target.id)];
+    console.log(`item = ${item}`);
+    console.log(`type of hideShow: ${typeof (hideShow)}`);
+
+    hideShow.forEach((x, i) => console.log(`the index of ${x} is ${i}`));
+
+    let newHideShow = hideShow.map(x => hideShow.indexOf(x) === parseInt(e.target.id) ? !x : x);
+    console.log(`new hide show: ${newHideShow}`);
+    // hideShow.forEach((x, i) => setHideShow(newHideShow));
     setHideShow(newHideShow);
-    console.log(e.target.id);
-    // console.log(`index is ${hideShow[e.target.id]}`)
-    console.log(hideShow);
+    console.log(`after updating hideShow : ${hideShow}`);
 
   }
   return (
@@ -236,7 +242,7 @@ function OfferDetails() {
                 <ul>
                   <li>
                     Lorem ipsum dolor sit amet desu ka??
-                    <i className={`${classes.arrow} ${classes.down}`} onClick={toggleDiv} id="1"></i>
+                    <i className={`${classes.arrow} ${classes.down}`} onClick={toggleDiv} id="0"></i>
                     <div>Hai! Lorem ipsum dolor sit desu!!</div>
                   </li>
                 </ul>
