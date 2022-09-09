@@ -9,17 +9,20 @@ function OfferDetails() {
     console.log(`fresh hideShow: ${hideShow}`);
     let item = hideShow[parseInt(e.target.id)];
     console.log(`item = ${item}`);
-    console.log(`type of hideShow: ${typeof (hideShow)}`);
+    console.log(`type of hideShow: ${typeof hideShow}`);
 
     hideShow.forEach((x, i) => console.log(`the index of ${x} is ${i}`));
 
-    let newHideShow = hideShow.map(x => hideShow.indexOf(x) === parseInt(e.target.id) ? !x : x);
-    console.log(`new hide show: ${newHideShow}`);
-    // hideShow.forEach((x, i) => setHideShow(newHideShow));
-    setHideShow(newHideShow);
-    console.log(`after updating hideShow : ${hideShow}`);
-
-  }
+    //  updt
+    setHideShow((existingItems) => {
+      return [
+        ...existingItems.slice(0, parseInt(e.target.id)),
+        !existingItems[parseInt(e.target.id)],
+        ...existingItems.slice(parseInt(e.target.id) + 1),
+      ];
+    });
+  };
+  console.log(`after updating hideShow : ${hideShow}`);
   return (
     <div className={classes.offerDetails}>
       <div className={classes.details}>
@@ -238,16 +241,95 @@ function OfferDetails() {
           <section className={classes.commonAskedQuestions}>
             <div className={classes.commonAskedQuestionsTitle}>
               <h1>Common questions asked about comprehensive cover</h1>
+            </div>
+            <div className={classes.commonAskedQuestionsLowerPart}>
               <div className={classes.questionList}>
                 <ul>
                   <li>
                     Lorem ipsum dolor sit amet desu ka??
-                    <i className={`${classes.arrow} ${classes.down}`} onClick={toggleDiv} id="0"></i>
-                    <div>Hai! Lorem ipsum dolor sit desu!!</div>
+                    <i
+                      className={`${classes.arrow} ${classes.down}`}
+                      onClick={toggleDiv}
+                      id="0"
+                    ></i>
                   </li>
+                    <div
+                      className={
+                        hideShow[0] ? `${classes.show}` : `${classes.hide}`
+                      }
+                    >
+                      Hai! Lorem ipsum dolor sit desu!!
+                    </div>
+                  <li>
+                    Evvero che lorem ipsum dolor sit amet??
+                    <i
+                      className={`${classes.arrow} ${classes.down}`}
+                      onClick={toggleDiv}
+                      id="1"
+                    ></i>
+                  </li>
+                    <div
+                      className={
+                        hideShow[1] ? `${classes.show}` : `${classes.hide}`
+                      }
+                    >
+                      Si! E verramente verro!
+                    </div>
+                  <li>
+                    ¿ Es verdad que lorem ipsum dolor sit amet??
+                    <i
+                      className={`${classes.arrow} ${classes.down}`}
+                      onClick={toggleDiv}
+                      id="2"
+                    ></i>
+                  </li>
+                    <div
+                      className={
+                        hideShow[2] ? `${classes.show}` : `${classes.hide}`
+                      }
+                    >
+                      ¡Si, es verdad!!!
+                    </div>
+                  <li>
+                    Ist lorem ipsum dolor sit amet wahr??
+                    <i
+                      className={`${classes.arrow} ${classes.down}`}
+                      onClick={toggleDiv}
+                      id="3"
+                    ></i>
+                  </li>
+                    <div
+                      className={
+                        hideShow[3] ? `${classes.show}` : `${classes.hide}`
+                      }
+                    >
+                      Ja! es ist doch wahr!
+                    </div>
+                  <li>
+                    क्या लोरेम इप्सम सच है?
+                    <i
+                      className={`${classes.arrow} ${classes.down}`}
+                      onClick={toggleDiv}
+                      id="4"
+                    ></i>
+                  </li>
+                    <div
+                      className={
+                        hideShow[4] ? `${classes.show}` : `${classes.hide}`
+                      }
+                    >
+                      हाँ!, यह वास्तव में सच है!
+                    </div>
                 </ul>
               </div>
+              <div className={classes.coupons}>
+                <img alt="coupon1" src="../images/Multi-policy-Promo.png"></img>
+                <img alt="coupon2" src="../images/Referral-promo.png"></img>
+              </div>
             </div>
+          </section>
+          <section className={classes.testimonials}>
+            <img alt="testimonials" src="../images/testimonials.png"></img>
           </section>
         </div>
       </div>

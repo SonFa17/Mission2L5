@@ -32,6 +32,12 @@ p {
     text-align: center;
 }
 
+.diveDeeper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .diveDeeperSection {
     display: flex;
     flex-direction: column;
@@ -79,7 +85,7 @@ p {
 .diveDeeperDetails {
     border: 0.5px solid lightgray;
     display: flex;
-    max-width: 70%;
+    max-width: 80%;
     margin-bottom: 10px;
 }
 
@@ -177,12 +183,25 @@ p {
     align-items: center;
 }
 
+.commonAskedQuestions {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 80%; */
+    width: 70%;
+
+}
+.commonAskedQuestionsLowerPart {
+    display: flex;
+    justify-content: space-between;
+}
+
 .arrow {
     border: solid black;
     border-width: 0 2px 2px 0;
     display: inline-block;
-    padding: 3px;
+    padding: 10px;
     margin-left: 5px;
+    margin-right: 10px;
 }
 .up {
     transform: rotate(-135deg);
@@ -194,9 +213,48 @@ p {
     -webkit-transform: rotate(45deg);
 }
 
+.questionList {
+    /* border: 1px solid lightgray; */
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+
+}
 .questionList ul {
     list-style: none;
+    /* border: 0.5px solid black; */
+    width: 80%;
 }
 .questionList ul li {
     cursor: pointer;
+    border: 0.5px solid gray ;
+    padding: 6px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.questionList ul div {
+    border: 0.5px solid gray ;
+    padding: 6px;
+
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.coupons {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+}
+
+.coupons img {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
