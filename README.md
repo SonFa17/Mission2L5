@@ -1,5 +1,8 @@
 For this mission we worked as a group and created a motor vehicle insurance application from our group’s UX Designer based on the prototype and/or user stories. We each picked 1 screen to work on. 
 
+We chose GitHub actions as our CI/CD tool for this project and deployed it with Firebase.
+
+
 
 
 # Getting Started with Create React App
